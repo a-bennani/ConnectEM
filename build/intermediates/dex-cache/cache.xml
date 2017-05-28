@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="19943ceb5fb773b6398061c2663adee3b595938e">
+        sha1="2ea89773be71b1ce6002f54c02ba9490962aabdc">
         <dex dex="/Users/anne-charlotte-girault/AndroidStudioProjects/ConnectEM/app/build/intermediates/pre-dexed/debug/instant-run_d763d3a7b5fdf60f2323568a968a06eb2d930ad4.jar" />
     </item>
     <item
@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ff632f072d1f7185b9ddac164802eb13d3750d08">
+        sha1="55d62e87fdae1e4a95c2e1bb8ab6fa5e120232c3">
         <dex dex="/Users/anne-charlotte-girault/AndroidStudioProjects/ConnectEM/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_cc39a1b97badf56b8ac53656239df18aff03c1fd.jar" />
     </item>
     <item

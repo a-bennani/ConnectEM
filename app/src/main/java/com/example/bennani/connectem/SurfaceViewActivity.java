@@ -65,7 +65,7 @@ public class SurfaceViewActivity extends SurfaceView implements SurfaceHolder.Ca
     private Context mContext;
 
     // tableau modelisant la _octopus du jeu
-    octopus[][] _octopus;
+    static octopus[][] _octopus;
 
     // taille de la _octopus
     static final int carteWidth = 4;
@@ -80,7 +80,7 @@ public class SurfaceViewActivity extends SurfaceView implements SurfaceHolder.Ca
     int evtDownY;
     int evtOffsetX;
     int evtOffsetY;
-
+    static boolean notInit = true;
 
     long time = 0;
     /**
@@ -368,7 +368,8 @@ public class SurfaceViewActivity extends SurfaceView implements SurfaceHolder.Ca
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
         Log.i("-> FCT <-", "surfaceChanged " + width + " - " + height);
         reshape();
-        initOctopus();
+        if (notInit) initOctopus();
+        notInit = false;
         //cv_thread.start();
     }
 
